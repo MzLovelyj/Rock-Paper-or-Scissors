@@ -1,0 +1,60 @@
+body {
+    text-align: center;
+}
+
+#main {
+    background-color: #143c37;
+    background-image: url("../img/RPS.jpg");
+    color: white;
+}
+
+div {
+    text-align: center;
+}
+
+.box {
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Barrio', cursive;
+    font-size: 100px;
+}
+
+.choices {
+    height: 100px;
+}
+
+.fa {
+    font-size: 80px;
+    color: #596157;
+    margin: 0px 25px;
+}
+
+.fa:hover {
+    font-size: 90px;
+    transition-duration: 0.1s;
+    color: #8B2635;
+}
+
+#computerMove {
+    font-size: 30px;
+}
+
+#winLose {
+    font-size: 50px;
+}
+
+.playerScore,
+.compScore {
+    font-size: 20px;
+}
+
+.results {
+    position: relative;
+    top: 40px;
+}
