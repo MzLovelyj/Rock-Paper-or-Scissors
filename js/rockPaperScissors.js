@@ -21,8 +21,6 @@ function myFunction() {
                 return 'scissors';
         }
     }
-
-
     /*console.log(getComputerChoice()); // should print 'rock', 'paper', or 'scissors'}  */
 
     function determineWinner(userChoice, computerChoice) {
@@ -64,4 +62,4 @@ function myFunction() {
         alert(determineWinner(userChoice, computerChoice));
     };
     playGame();
-};
+}
